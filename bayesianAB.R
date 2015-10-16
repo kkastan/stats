@@ -1,6 +1,6 @@
 # See http://www.evanmiller.org/bayesian-ab-testing.html
 #
-# Formula for computing the Bayesian probability that A is better than B
+# Formula for computing the Bayesian probability that B is better than A
 #
 # α_A - one plus the number of successes for A
 # β_A - one plus the number of failures for A
