@@ -10,6 +10,10 @@
 a_better_than_b <- function(α_A, β_A, α_B, β_B) {
   val <- 0
 
+  if(α_B == 0) {
+    return(val)
+  }
+
   for (i in 0:α_B-1) {
     val <- val + exp(lbeta(α_A + i, β_B + β_A) - log(β_B + i) - lbeta(1+i, β_B) - lbeta(α_A, β_A))
   }
