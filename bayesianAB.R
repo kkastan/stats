@@ -7,7 +7,7 @@
 # α_B - one plus the number of successes for B
 # β_B - one plus the number of failures of B
 
-a_better_than_b <- function(α_A, β_A, α_B, β_B) {
+prob_b_better_than_a <- function(α_A, β_A, α_B, β_B) {
   val <- 0
 
   if(α_B == 0) {
